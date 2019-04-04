@@ -1,0 +1,23 @@
+{
+  "name": "storybook-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@invisionapp/dsm-storybook": "0.0.20",
+    "@storybook/react": "^4.1.14",
+    "babel-loader": "^8.0.5",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "^2.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "dsm-storybook:build": "dsm-storybook build",
+    "dsm-storybook:run": "dsm-storybook run"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
